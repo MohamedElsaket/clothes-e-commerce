@@ -20,7 +20,7 @@ const AppRouting = () => {
       <ShopContextProvider>
         <Navbar />
         <Routes>
-          <Route path="/clothes-e-commerce" element={<Home />} />
+          <Route path="clothes-e-commerce" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="collection" element={<Collection />} />
           <Route path="contact" element={<Contact />} />
