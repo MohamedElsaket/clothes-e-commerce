@@ -15,12 +15,12 @@ import { Toaster } from "react-hot-toast";
 
 const AppRouting = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/clothes-e-commerce">
       <Toaster />
       <ShopContextProvider>
         <Navbar />
         <Routes>
-          <Route path="clothes-e-commerce" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="collection" element={<Collection />} />
           <Route path="contact" element={<Contact />} />
