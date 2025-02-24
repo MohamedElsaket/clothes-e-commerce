@@ -19,7 +19,7 @@ const Footer = () => {
         <div>
           <p className="text-xl font-medium mb-5 uppercase">company</p>
           <ul className="flex flex-col gap-1 text-gray-600">
-            <Link onClick={scrollTop()} to="/clothes-e-commerce">
+            <Link onClick={scrollTop()} to="/">
               Home
             </Link>
             <Link onClick={scrollTop()} to="/about">
