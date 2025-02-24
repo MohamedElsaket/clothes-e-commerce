@@ -15,7 +15,7 @@ import { Toaster } from "react-hot-toast";
 
 const AppRouting = () => {
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="/clothes-e-commerce">
       <Toaster />
       <ShopContextProvider>
         <Navbar />
